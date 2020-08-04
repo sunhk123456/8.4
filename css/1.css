@@ -1,0 +1,585 @@
+body {
+    font-family: "微软雅黑";
+    padding: 0px;
+    margin: 0px;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+div {
+    display: block;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+label {
+    cursor: default;
+}
+
+li {
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 导航开始 */
+
+.nav {
+    height: 100px;
+    /* background-color: red; */
+}
+
+.nav-left {
+    width: 24.7%;
+    height: 100%;
+    position: relative;
+    float: left;
+    clear: left;
+    /* background-color: rosybrown; */
+}
+
+.nav-img {
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    width: 270px;
+}
+
+
+/* .nav-a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    align-items: center;
+} */
+
+.nav-a img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-right {
+    width: 75.3%;
+    float: left;
+    height: 100%;
+}
+
+.nav-right-title {
+    margin-right: 4%;
+    height: 100%;
+    padding-left: 5% !important;
+}
+
+.nav-title-write {
+    width: 797px;
+    height: 100%;
+    float: right;
+}
+
+.nav-write {
+    width: 99.6px;
+    line-height: 100px;
+    text-align: center;
+    float: left;
+    font-size: 16px;
+    transition: all .4s ease;
+}
+
+.nav-write:hover {
+    background-color: #3b78d4;
+}
+
+.nav-write:hover a {
+    color: white;
+}
+
+
+/* 导航结束 */
+
+
+/* banner1开始 */
+
+.banner1 {
+    width: 100%;
+    height: 649px;
+    /* background-color: pink; */
+    margin-top: 1px;
+}
+
+
+/* banner1结束 */
+
+
+/* banner2开始 */
+
+.banner2 {
+    width: 100%;
+    height: 753px;
+    /* background-color: pink; */
+    background-image: url(../img/fyaboutback-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.banner2-left {
+    width: 50%;
+    height: 100%;
+    background: rgba(59, 120, 212, 0.75) !important;
+    position: relative;
+}
+
+.banner2-left-logo {
+    /* position: absolute; */
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 12.5%;
+    margin-left: 15%;
+}
+
+.banner2-left-title {
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: left;
+    min-height: 0px;
+    margin-top: 1%;
+    margin-left: 15%;
+}
+
+.banner2-left-title span {
+    font-size: 36px;
+    color: #fff;
+    line-height: 39.6px;
+    font-weight: 400;
+}
+
+.banner2-left-line {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 7%;
+    margin-left: 15%;
+    margin-bottom: 6%;
+    float: left;
+}
+
+.banner2-line-1 {
+    width: 20%;
+    height: 20px;
+    position: relative;
+}
+
+.banner2-line-2 {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 50%;
+    background-color: #fff;
+}
+
+.banner2-left-span {
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+.banner2-left-span span {
+    color: #fff;
+    line-height: 36px;
+    font-size: 14px;
+}
+
+.banner2-left-bai p {
+    height: 36px;
+}
+
+.banner2-left-tubiao {
+    position: relative;
+    margin-top: 7%;
+    margin-left: 15%;
+    margin-bottom: 12.5%;
+    margin-right: auto;
+}
+
+.banner2-left-tubiao-1 {
+    color: rgba(255, 255, 255, 1);
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    width: 216px;
+    height: 51px;
+    text-align: center;
+}
+
+.banner2-tubiao-span {
+    line-height: 51px;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+}
+
+.banner2-left-tubiao-1:hover {
+    border: #006dc7 2px solid;
+    background-color: #006dc7;
+}
+
+
+/* banner2 结束 */
+
+
+/* banner3 开始 */
+
+.banner3 {
+    height: 728px;
+    margin-top: 1px;
+    width: 100%;
+    background-color: violet;
+    position: relative;
+}
+
+.banner3-img1 {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    /* background-color: red; */
+    float: left;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.banner3-img1 img {
+    transition: all 0.5s ease;
+}
+
+.banner3-img1:hover img {
+    transform: scale(1.1);
+}
+
+
+/* banner3结束 */
+
+
+/* banner4 开始 */
+
+.banner4 {
+    height: 1058px;
+    width: 100%;
+    margin-top: 1px;
+    /* background-color: royalblue; */
+    position: relative;
+    text-align: center;
+}
+
+.banner4-logo {
+    position: relative;
+    margin-top: 5%;
+    /* left: 50%; */
+    margin-left: -243px;
+    float: left;
+    left: 50%;
+}
+
+.banner4-title {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    /* background-color: red; */
+}
+
+.banner4-title span {
+    line-height: 40px;
+    font-size: 36px;
+    color: #333333;
+}
+
+.banner4-box {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 712px;
+}
+
+.banner4-box-1 {
+    width: auto;
+    height: 100%;
+    padding: 1rem;
+    /* z-index: 1; */
+    /* background-color: red; */
+}
+
+.banner4-box-2 {
+    position: relative;
+    width: calc(100%/3);
+    /* background-color: red; */
+    float: left;
+    height: 340px;
+    margin: 0;
+    cursor: pointer;
+    /* padding: 1rem; */
+}
+
+.banner4-box-3 {
+    padding: 1rem;
+    width: calc((100% - 32px)/1);
+    height: calc((100% - 32px)/1);
+}
+
+.banner4-box-4 {
+    margin-top: 20px;
+    height: calc((100% - 20px)/1);
+    background: #f2f2f2;
+    padding: 0 60px;
+    transition: all .5s ease;
+}
+
+.banner4-box-2:hover .banner4-box-4 {
+    background: #333333;
+}
+
+.banner4-box-2:hover .banner4-box-title {
+    background-color: #264e88;
+    padding: 60px 10px 20px;
+}
+
+.banner4-box-2:hover .title {
+    color: #fff;
+}
+
+.banner4-box-title {
+    position: absolute;
+    width: 80px;
+    height: 52px;
+    margin: -14px 0 40px;
+    background-color: #3b78d4;
+    padding: 40px 10px 20px;
+    transition: all .5s ease;
+}
+
+.banner4-box-body {
+    position: absolute;
+    margin-top: 130px;
+    /* padding: 40px 10px 20px; */
+    overflow: hidden;
+    transition: all .5s ease;
+}
+
+.banner4-box-body1 {
+    width: calc(100% - 140px);
+    top: 130px;
+    transition: all .5s ease;
+}
+
+.description {
+    width: 100%;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2px;
+    transition: all .5s ease;
+    height: 60px;
+}
+
+.title {
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+}
+
+.banner4-box-4 .newIcon {
+    right: 20%;
+    top: 60px;
+    transition: all .5s ease;
+    position: absolute;
+    font-size: 3rem;
+    color: #333;
+    opacity: 0;
+}
+
+.banner4-box-2:hover .newIcon {
+    right: 15%;
+    top: 100px;
+    color: #000;
+    opacity: 1;
+}
+
+.banner4-box-2:hover .banner4-box-body {
+    margin-top: 150px;
+}
+
+.banner4-box-title .md {
+    position: relative;
+    list-style-type: none;
+    color: #FFF;
+    margin-left: -4px;
+    font-size: 30px;
+    line-height: 30px;
+    float: right;
+    text-align: right;
+}
+
+.banner4-box-title .year {
+    color: #bdbdbd;
+    font-size: 16px;
+    text-align: right;
+    transition: all .5s ease;
+}
+
+.banner4-chakan {
+    position: relative;
+    /* background-color: red; */
+    float: left;
+    margin-top: 1.5%;
+    left: 50%;
+    margin-left: -108px;
+    margin-bottom: 5%;
+}
+
+.banner4-chakan .banner2-tubiao-span {
+    color: rgba(59, 120, 212, 1);
+}
+
+.banner4-chakan .banner2-left-tubiao-1:hover .banner2-tubiao-span {
+    color: #fff;
+}
+
+
+/* banner4结束 */
+
+
+/* copy开始 */
+
+.copy {
+    height: 407px;
+    width: 100%;
+    background-image: url(../img/copy-back.jpg);
+    background-attachment: fixed;
+}
+
+.copy-box {
+    position: relative;
+    float: left;
+    height: 267px;
+    width: 99%;
+    /* background-color: red; */
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 0.5%;
+}
+
+.copy-box1 {
+    width: 9.79%;
+    float: left;
+}
+
+.copy-box1-title {
+    margin-bottom: 7%;
+}
+
+.copy-box1-title span {
+    font-size: 16px;
+    line-height: 2.5;
+    color: #fff;
+}
+
+.copy-box1-span span {
+    line-height: 2.2;
+}
+
+.copy-box1-span a {
+    line-height: 31px;
+    font-size: 14px;
+    color: #fff;
+    font-family: arial;
+}
+
+.copy-saoma {
+    width: 10.28%;
+    float: right;
+    text-align: center;
+}
+
+.copy-saoma img {
+    float: right;
+}
+
+.copy-saoma span {
+    line-height: 1.1;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.copy-line {
+    position: relative;
+    float: left;
+    height: 20px;
+    width: 100%;
+}
+
+.copy-line span {
+    /* padding-top: 9px; */
+    margin-top: 9px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 2px;
+    line-height: 20px;
+    display: block;
+}
+
+.copy-right {
+    position: relative;
+    margin-top: 0.5%;
+    float: left;
+    width: 100%;
+    text-align: center;
+    line-height: 36px;
+}
+
+.copy-right p {
+    position: relative;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.copy-right a {
+    color: #FFFFFF;
+}
+
+
+/* copy结束 */

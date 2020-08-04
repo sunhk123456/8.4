@@ -1,0 +1,254 @@
+/* .banner {
+    position: relative;
+    height: 316.5px;
+    width: 100%;
+} */
+
+
+/* banner1开始 */
+
+.banner1 {
+    position: relative;
+    width: 100%;
+    height: 110.5px;
+    /* float: left; */
+    /* background-color: yellow; */
+}
+
+.banner1-box {
+    width: 100%;
+    height: 80px;
+    float: left;
+    margin-bottom: 2%;
+}
+
+.banner1-box1 {
+    float: left;
+    /* padding: 1px; */
+    /* width: 24.91%; */
+    width: calc((100%/3) - 1px);
+    height: 80px;
+    border-right: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+}
+
+.banner1-box1:hover {
+    background-color: #3b78d4;
+}
+
+.banner1-box1:hover a {
+    color: #fff;
+}
+
+.banner1-box1 a {
+    font-size: 16px;
+    line-height: 80px;
+}
+
+
+/* banner1结束 */
+
+
+/* banner4 开始 */
+
+.banner4 {
+    height: 900px;
+    width: 100%;
+    margin-top: 1px;
+    /* background-color: royalblue; */
+    position: relative;
+    text-align: center;
+}
+
+.banner4-logo {
+    position: relative;
+    margin-top: 5%;
+    /* left: 50%; */
+    margin-left: -243px;
+    float: left;
+    left: 50%;
+}
+
+.banner4-title {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    /* background-color: red; */
+}
+
+.banner4-title span {
+    line-height: 40px;
+    font-size: 36px;
+    color: #333333;
+}
+
+.banner4-box {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 712px;
+}
+
+.banner4-box-1 {
+    width: auto;
+    height: 100%;
+    padding: 1rem;
+    /* z-index: 1; */
+    /* background-color: red; */
+}
+
+.banner4-box-2 {
+    position: relative;
+    width: calc(100%/3);
+    /* background-color: red; */
+    float: left;
+    height: 340px;
+    margin: 0;
+    cursor: pointer;
+    /* padding: 1rem; */
+}
+
+.banner4-box-3 {
+    padding: 1rem;
+    width: calc((100% - 32px)/1);
+    height: calc((100% - 32px)/1);
+}
+
+.banner4-box-4 {
+    margin-top: 20px;
+    height: calc((100% - 20px)/1);
+    background: #f2f2f2;
+    padding: 0 60px;
+    transition: all .5s ease;
+}
+
+.banner4-box-2:hover .banner4-box-4 {
+    background: #333333;
+}
+
+.banner4-box-2:hover .banner4-box-title {
+    background-color: #264e88;
+    padding: 60px 10px 20px;
+}
+
+.banner4-box-2:hover .title {
+    color: #fff;
+}
+
+.banner4-box-title {
+    position: absolute;
+    width: 80px;
+    height: 52px;
+    margin: -14px 0 40px;
+    background-color: #3b78d4;
+    padding: 40px 10px 20px;
+    transition: all .5s ease;
+}
+
+.banner4-box-body {
+    position: absolute;
+    margin-top: 130px;
+    /* padding: 40px 10px 20px; */
+    overflow: hidden;
+    transition: all .5s ease;
+}
+
+.banner4-box-body1 {
+    width: calc(100% - 140px);
+    top: 130px;
+    transition: all .5s ease;
+}
+
+.description {
+    width: 100%;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2px;
+    transition: all .5s ease;
+    height: 60px;
+}
+
+.title {
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+}
+
+.banner4-box-4 .newIcon {
+    right: 20%;
+    top: 60px;
+    transition: all .5s ease;
+    position: absolute;
+    font-size: 3rem;
+    color: #333;
+    opacity: 0;
+}
+
+.banner4-box-2:hover .newIcon {
+    right: 15%;
+    top: 100px;
+    color: #000;
+    opacity: 1;
+}
+
+.banner4-box-2:hover .banner4-box-body {
+    margin-top: 150px;
+}
+
+.banner4-box-title .md {
+    position: relative;
+    list-style-type: none;
+    color: #FFF;
+    margin-left: -4px;
+    font-size: 30px;
+    line-height: 30px;
+    float: right;
+    text-align: right;
+}
+
+.banner4-box-title .year {
+    color: #bdbdbd;
+    font-size: 16px;
+    text-align: right;
+    transition: all .5s ease;
+}
+
+.banner4-chakan {
+    position: relative;
+    /* background-color: red; */
+    float: left;
+    margin-top: 1.5%;
+    left: 50%;
+    margin-left: -108px;
+    margin-bottom: 5%;
+}
+
+.banner4-chakan .banner2-tubiao-span {
+    color: rgba(59, 120, 212, 1);
+}
+
+.banner4-chakan .banner2-left-tubiao-1:hover .banner2-tubiao-span {
+    color: #fff;
+}
+
+
+/* banner4结束 */

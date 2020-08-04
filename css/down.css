@@ -1,0 +1,130 @@
+.banner1 {
+    position: relative;
+    width: 100%;
+    height: 110.5px;
+}
+
+
+/* banner1开始 */
+
+.banner1 {
+    margin-top: 1px;
+    position: relative;
+    width: 100%;
+    height: 110.5px;
+    /* float: left; */
+    /* background-color: yellow; */
+}
+
+.banner1-box {
+    width: 100%;
+    height: 80px;
+    float: left;
+    margin-bottom: 2%;
+}
+
+.banner1-box1 {
+    float: left;
+    /* padding: 1px; */
+    /* width: 24.91%; */
+    width: calc(25% - 1px);
+    height: 80px;
+    border-right: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+}
+
+.banner1-box1:hover {
+    background-color: #3b78d4;
+}
+
+.banner1-box1:hover a {
+    color: #fff;
+}
+
+.banner1-box1 a {
+    font-size: 16px;
+    line-height: 80px;
+}
+
+
+/* banner1结束 */
+
+
+/* banner2开始 */
+
+.banner2 {
+    width: 100%;
+    height: 1156px;
+    /* background-color: salmon; */
+}
+
+.banner2-box {
+    float: left;
+    width: 99%;
+    height: 1000px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-top: 2%;
+    /* background-color: red; */
+}
+
+.banner2-box1 {
+    float: left;
+    width: calc( 96% - 2px);
+    height: calc( 96% - 40px);
+    padding: 2%;
+    border: 1px solid gray;
+}
+
+.stylebox_title {
+    vertical-align: bottom;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: inherit;
+    font-size: 0px;
+    width: auto;
+    height: 40px;
+    white-space: nowrap;
+    background-color: #1890FF;
+    display: inline-block;
+}
+
+.title_main {
+    vertical-align: middle;
+    line-height: 40px;
+    max-width: 600px;
+    color: rgba(255, 255, 255, 1);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 16px;
+    white-space: nowrap;
+    display: inline-block;
+    font-weight: normal;
+}
+
+.banner2-box2 {
+    width: calc(96% / 3);
+    height: 400px;
+    float: left;
+    padding-right: 1%;
+    margin-bottom: 1%;
+    /* background-color: green; */
+}
+
+.banner2-box3 {
+    width: 99%;
+    height: calc( 100% - 2px);
+    border: 1px solid gray;
+}
+
+.banner2 .bottomBox {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background-color: #f5f5f5;
+    margin-bottom: 20px;
+}
